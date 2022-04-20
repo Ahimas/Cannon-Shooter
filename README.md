@@ -1,2 +1,3 @@
 # Cannon-Shooter
-Casual Game: Player shoots the enemies that spawns in front of castle, the task is to push the enemis back to the castle gates. 
+Casual Game: Player shoot the enemies that spawn in front of castle, the task is to push the enemies back to the castle gates. 
+Game Over term: enemy reaches the cannon.
