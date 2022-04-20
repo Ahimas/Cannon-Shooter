@@ -1,9 +1,7 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-
 
 public class Gun : MonoBehaviour
 {
@@ -33,7 +31,7 @@ public class Gun : MonoBehaviour
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         audioSource = GetComponent<AudioSource>();
         horiznontalInput = 90f;
-        PreparePjectiles();
+        PrepareProjectiles();
         isReadyForFire = true;
     }
 
@@ -80,7 +78,7 @@ public class Gun : MonoBehaviour
         return null;
     }
 
-    private void PreparePjectiles()
+    private void PrepareProjectiles()
     {
         for ( int i = 0; i < ammoQnty; i++ )
         {

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -21,8 +21,6 @@ public class Enemy : MonoBehaviour
     private float damageFromProjectile = 1000f;
 
     [SerializeField] private float speed = 3.5f;
-    
-    private float currentSpeed;
 
     public bool isHit;
     public bool isSpeedChecking;
